@@ -17,9 +17,7 @@ def calculate_snr(file_paths):
 
         first_300 = y_values[80:320]
         data_mean = np.mean(first_300)
-        data_std = np.std(first_300)
-
-        # Find peaks for each sensor type using specific condition            
+        data_std = np.std(first_300)           
 
         # Find peaks for BSE sensor (lowest valleys)
         if 'BSE' in file_info['file_path']:
@@ -44,14 +42,12 @@ def calculate_snr(file_paths):
 
     return snr_values
 
-# Define file paths for each sensor type and corresponding distances
 file_paths_BSE = [
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\BSE26', 'distance': 26.5},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\BSE21', 'distance': 21.3},
+    {'file_path': r'BSE26', 'distance': 26.5},
+    {'file_path': 'BSE21', 'distance': 21.3},
     {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\BSE16', 'distance': 16.2},
     {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\BSE11', 'distance': 11.2},
     {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\BSE6', 'distance': 6.4},
-    # Add more file paths for BSE sensor as needed
 ]
 
 file_paths_InLens = [
