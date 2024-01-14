@@ -45,27 +45,25 @@ def calculate_snr(file_paths):
 file_paths_BSE = [
     {'file_path': r'BSE26', 'distance': 26.5},
     {'file_path': 'BSE21', 'distance': 21.3},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\BSE16', 'distance': 16.2},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\BSE11', 'distance': 11.2},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\BSE6', 'distance': 6.4},
+    {'file_path': 'BSE16', 'distance': 16.2},
+    {'file_path': 'BSE11', 'distance': 11.2},
+    {'file_path': 'BSE6', 'distance': 6.4},
 ]
 
 file_paths_InLens = [
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\InLens26', 'distance': 26.5},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\InLens21', 'distance': 21.3},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\InLens16', 'distance': 16.2},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\InLens11', 'distance': 11.2},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\InLens6', 'distance': 6.4},
-    # Add more file paths for InLens sensor as needed
+    {'file_path': 'InLens26', 'distance': 26.5},
+    {'file_path': 'InLens21', 'distance': 21.3},
+    {'file_path': 'InLens16', 'distance': 16.2},
+    {'file_path': 'InLens11', 'distance': 11.2},
+    {'file_path': 'InLens6', 'distance': 6.4},
 ]
 
 file_paths_SE = [
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\SE26', 'distance': 26.5},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\SE21', 'distance': 21.3},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\SE16', 'distance': 16.2},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\SE11', 'distance': 11.2},
-    {'file_path': r'C:\Users\theo\OneDrive\Dokumente\Privat\UNI\Angewandte Physik I\Praktikum\3_C&B_adjust\Signale\SE6', 'distance': 6.4},
-    # Add more file paths for SE sensor as needed
+    {'file_path': 'SE26', 'distance': 26.5},
+    {'file_path': 'SE21', 'distance': 21.3},
+    {'file_path': 'SE16', 'distance': 16.2},
+    {'file_path': 'SE11', 'distance': 11.2},
+    {'file_path': 'SE6', 'distance': 6.4},
 ]
 
 # Calculate SNR for each sensor type
